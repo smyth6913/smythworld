@@ -33,9 +33,6 @@ export const Route = createFileRoute('/')({
       },
     ],
   }),
-
-
-
 function encode(data: Record<string, string>) {
   return Object.entries(data)
     .map(([key, val]) => `${encodeURIComponent(key)}=${encodeURIComponent(val)}`)
