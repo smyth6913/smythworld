@@ -15,6 +15,10 @@ export const Route = createRootRoute({
       {
         title: 'SmythWorld IT Solutions',
       },
+      {
+        name: 'google-site-verification',
+        content: 'fLEqdcwMYC7KaVSTWHmQnDsAwLOdSJGE_1EoxDuB2XY',
+      },
     ],
   }),
   shellComponent: RootDocument,
