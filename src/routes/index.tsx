@@ -21,6 +21,21 @@ import { useState } from 'react'
 
 export const Route = createFileRoute('/')({
   component: LandingPage,
+  head: () => ({
+    meta: [
+      {
+        name: 'description',
+        content: 'SmythWorld IT Solutions - Best IT Support, Website Design, CCTV, Digital Marketing, Google Ads & Computer Services in Kalchini, Alipurduar, Hasimara, Jaigaon, Birpara, Dooars, North Bengal.',
+      },
+      {
+        name: 'keywords',
+        content: 'IT support Alipurduar, website design Kalchini, CCTV installation Dooars, computer repair Hasimara, digital marketing Jaigaon, Google Ads North Bengal, SEO services Birpara, IT support Dooars, computer sales Alipurduar',
+      },
+    ],
+  }),
+})
+
+
 })
 
 function encode(data: Record<string, string>) {
