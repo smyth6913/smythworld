@@ -174,7 +174,7 @@ function LandingPage() {
               </span>
             </h1>
             <p className="max-w-2xl mx-auto text-lg md:text-xl text-slate-300 mb-12 leading-relaxed">
-              Empowering businesses with top-tier IT support, digital marketing, and robust security solutions in Alipurduar & Beyond.
+              Empowering businesses with top-tier IT support, digital marketing, Website Design, CCTV Sevices,Computer Sales and Service,SEO Services,Google and Meta Ads and robust security solutions in Alipurduar District ,Jalpaiguri District,Entire North Bengal and Dooars Area & Beyond.
             </p>
             <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
               <button 
