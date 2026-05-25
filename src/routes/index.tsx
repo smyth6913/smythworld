@@ -33,10 +33,8 @@ export const Route = createFileRoute('/')({
       },
     ],
   }),
-})
 
 
-})
 
 function encode(data: Record<string, string>) {
   return Object.entries(data)
