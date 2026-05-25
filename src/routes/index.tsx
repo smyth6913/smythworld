@@ -423,7 +423,7 @@ function LandingPage() {
                     </div>
                     <div>
                       <p className="font-medium text-white mb-1">Phone Number</p>
-                      <p className="text-slate-400 text-sm">+91 (XXX) XXX-XXXX</p>
+                      <p className="text-slate-400 text-sm">+91 9635471621</p>
                     </div>
                   </div>
 
@@ -433,7 +433,7 @@ function LandingPage() {
                     </div>
                     <div>
                       <p className="font-medium text-white mb-1">Email Address</p>
-                      <p className="text-slate-400 text-sm">contact@smythworld.com</p>
+                      <p className="text-slate-400 text-sm">smythworld96@gmail.com</p>
                     </div>
                   </div>
                 </div>
@@ -508,7 +508,7 @@ function LandingPage() {
               &copy; 2026 SmythWorld IT Solutions. All rights reserved.
             </p>
             <p className="text-slate-500 text-sm flex items-center gap-1">
-              Crafted with care in <span className="text-slate-300">West Bengal</span>
+              Crafted with care in <span className="text-slate-300">Alipurduar</span>
             </p>
           </div>
         </div>
