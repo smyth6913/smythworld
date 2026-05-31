@@ -183,9 +183,9 @@ function LandingPage() {
                 Your Trusted Technology Partner
               </span>
             </h1>
-            <p className="max-w-2xl mx-auto text-lg md:text-xl text-slate-300 mb-12 leading-relaxed">
-              Empowering businesses with top-tier IT support, digital marketing, Website Design, CCTV Sevices,Computer Sales and Service,SEO Services,Google and Meta Ads and robust security solutions in Alipurduar District ,Jalpaiguri District,Entire North Bengal and Dooars Area & Beyond.
-            </p>
+            <p <p className="max-w-2xl mx-auto text-lg md:text-xl text-slate-300 mb-12 leading-relaxed">
+  Providing expert IT support, Website Design, CCTV, Digital Marketing, and Computer Sales & Services in Kalchini, Hasimara, Jaigaon, Madarihat, Birpara, Banarhat, Nagrakata, Chalsa, Binnaguri, and across the entire Dooars and North Bengal region.
+</p>
             <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
               <button 
                 onClick={() => scrollToSection('contact')}
