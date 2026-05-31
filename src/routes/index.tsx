@@ -183,7 +183,7 @@ function LandingPage() {
                 Your Trusted Technology Partner
               </span>
             </h1>
-            <p <p className="max-w-2xl mx-auto text-lg md:text-xl text-slate-300 mb-12 leading-relaxed">
+            <p className="max-w-2xl mx-auto text-lg md:text-xl text-slate-300 mb-12 leading-relaxed">
   Providing expert IT support, Website Design, CCTV, Digital Marketing, and Computer Sales & Services in Kalchini, Hasimara, Jaigaon, Madarihat, Birpara, Banarhat, Nagrakata, Chalsa, Binnaguri, and across the entire Dooars and North Bengal region.
 </p>
             <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
