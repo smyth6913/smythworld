@@ -15,7 +15,8 @@ import {
   Menu,
   X,
   ChevronRight,
-  Monitor
+  Monitor,
+  MessageCircle
 } from 'lucide-react'
 import { useState } from 'react'
 
