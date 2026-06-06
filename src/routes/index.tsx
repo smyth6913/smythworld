@@ -490,7 +490,16 @@ function LandingPage() {
             </div>
           </div>
         </section>
-      </main>
+      </      {/* Floating WhatsApp Button */}
+      <a
+        href="https://wa.me/919635471621?text=Hi!%20I%20would%20like%20to%20know%20more%20about%20your%20IT%20services."
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg shadow-green-500/30 transition-all transform hover:scale-110 cursor-pointer"
+      >
+        <MessageCircle className="w-8 h-8" />
+      </a>
+
 
       {/* Footer */}
       <footer className="bg-corporate-dark border-t border-slate-800 pt-16 pb-8">
