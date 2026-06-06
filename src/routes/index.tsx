@@ -262,10 +262,13 @@ function LandingPage() {
               <div className="w-full lg:w-1/2">
                 <div className="relative rounded-2xl overflow-hidden aspect-video lg:aspect-square shadow-2xl border border-slate-800">
                   {/* High-quality tech-related placeholder imagery */}
-                  <img 
-                    src="https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&q=80&w=1000" 
-                    alt="Tech professionals working" 
-                    className="w-full h-full object-cover"
+                  
+                    <img 
+  src="https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&q=80&w=1000" 
+  alt="IT support and professional technology services in Alipurduar and Kalchini" 
+  className="w-full h-full object-cover"
+/
+
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-corporate-dark/80 to-transparent"></div>
                   <div className="absolute bottom-6 left-6 right-6">
