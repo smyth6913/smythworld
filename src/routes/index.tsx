@@ -21,18 +21,40 @@ import { useState } from 'react'
 
 export const Route = createFileRoute('/')({
   component: LandingPage,
-  head: () => ({
+    head: () => ({
     meta: [
       {
         name: 'description',
-        content: 'SmythWorld IT Solutions - Best IT Support, Website Design, CCTV, Digital Marketing, Google Ads & Computer Services in Kalchini, Alipurduar, Hasimara, Jaigaon, Birpara, Dooars, North Bengal.',
+        content: 'SmythWorld IT Solutions: Expert IT support, website design, CCTV, and digital marketing in Alipurduar, Kalchini, and North Bengal. Get a free consultation today!',
       },
       {
         name: 'keywords',
-        content: 'IT support Alipurduar, website design Kalchini, CCTV installation Dooars, computer repair Hasimara, digital marketing Jaigaon, Google Ads North Bengal, SEO services Birpara, IT support Dooars, computer sales Alipurduar',
+        content: 'IT support Alipurduar, website design Kalchini, CCTV installation Dooars, computer repair Hasimara, digital marketing Jaigaon, Google Ads North Bengal, SEO services Birpara',
       },
     ],
+    script: [
+      {
+        type: 'application/ld+json',
+        innerHTML: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "name": "SmythWorld IT Solutions",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Kalchini",
+            "addressLocality": "Alipurduar",
+            "addressRegion": "WB",
+            "postalCode": "735217",
+            "addressCountry": "IN"
+          },
+          "telephone": "+919635471621",
+          "url": "https://smythworld.netlify.app"
+        })
+      }
+    ],
   }),
+
+    
 function encode(data: Record<string, string>) {
   return Object.entries(data)
     .map(([key, val]) => `${encodeURIComponent(key)}=${encodeURIComponent(val)}`)
