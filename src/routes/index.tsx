@@ -267,8 +267,6 @@ function LandingPage() {
   src="https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&q=80&w=1000" 
   alt="IT support and professional technology services in Alipurduar and Kalchini" 
   className="w-full h-full object-cover"
-/
-
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-corporate-dark/80 to-transparent"></div>
                   <div className="absolute bottom-6 left-6 right-6">
@@ -489,7 +487,8 @@ function LandingPage() {
             </div>
           </div>
         </section>
-      </      {/* Floating WhatsApp Button */}
+      </main>
+            {/* Floating WhatsApp Button */}
       <a
         href="https://wa.me/919635471621?text=Hi!%20I%20would%20like%20to%20know%20more%20about%20your%20IT%20services."
         target="_blank"
