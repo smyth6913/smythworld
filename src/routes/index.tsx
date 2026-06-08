@@ -237,12 +237,10 @@ function LandingPage() {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {services.map((service, index) => (
-                <div 
-                  key={index} 
-                  className="bg-corporate-light rounded-2xl p-8 border border-slate-700 hover:border-accent/50 transition-all duration-300 hover:-translate-y-2 group"
-                >
+                      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {services.map((service, index) => {
+              const CardContent = (
+                <div className="bg-corporate-light rounded-2xl p-8 border border-slate-700 hover:border-accent/50 transition-all duration-300 hover:-translate-y-2 group h-full">
                   <div className="transform group-hover:scale-110 transition-transform duration-300 origin-left">
                     {service.icon}
                   </div>
@@ -251,8 +249,20 @@ function LandingPage() {
                     {service.description}
                   </p>
                 </div>
-              ))}
-            </div>
+              );
+
+              return service.link ? (
+                <Link key={index} to={service.link} className="block cursor-pointer">
+                  {CardContent}
+                </Link>
+              ) : (
+                <div key={index} className="h-full">
+                  {CardContent}
+                </div>
+              );
+            })}
+          </div>
+
           </div>
         </section>
 
