@@ -101,7 +101,7 @@ function LandingPage() {
     {
       title: "Website Designing",
       description: "Creative, responsive, and SEO-optimized business websites.",
-      icon: <MonitorSmartphone className="w-10 h-10 text-accent mb-4" />
+      icon: <MonitorSmartphone className="w-10 h-10 text-accent mb-4" />,
       link: "/website-design"
     },
     {
