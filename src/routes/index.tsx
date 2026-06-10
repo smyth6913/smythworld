@@ -123,6 +123,7 @@ function LandingPage() {
       title: "CCTV Solutions",
       description: "Smart security surveillance setup, installation, and remote monitoring.",
       icon: <ShieldCheck className="w-10 h-10 text-accent mb-4" />
+     link: "/cctv-solutions"
     },
     {
       title: "Computer Sales & Services",
