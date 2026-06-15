@@ -117,7 +117,8 @@ function LandingPage() {
     {
       title: "IT Support",
       description: "Proactive desktop support, network troubleshooting, and hardware maintenance.",
-      icon: <Wrench className="w-10 h-10 text-accent mb-4" />
+      icon: <Wrench className="w-10 h-10 text-accent mb-4" />,
+      link: "/it-support"
     },
     {
       title: "CCTV Solutions",
