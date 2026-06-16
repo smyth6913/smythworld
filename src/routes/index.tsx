@@ -132,7 +132,8 @@ function LandingPage() {
     {
       title: "Computer Sales & Services",
       description: "Reliable computer hardware sales, custom builds, and expert repair services.",
-      icon: <Cpu className="w-10 h-10 text-accent mb-4" />
+      icon: <Cpu className="w-10 h-10 text-accent mb-4" />,
+      link: "/computer-sales-services.tsx
     }
   ]
 
