@@ -107,12 +107,15 @@ function LandingPage() {
     {
       title: "Digital Marketing",
       description: "Strategic social media management, brand growth, and local SEO.",
-      icon: <Megaphone className="w-10 h-10 text-accent mb-4" />
+      icon: <Megaphone className="w-10 h-10 text-accent mb-4" />,
+      link: "/digital-marketing"
     },
     {
       title: "Google Ads & Meta Ads",
       description: "High-ROI paid advertising campaigns targeted to scale your sales.",
-      icon: <Target className="w-10 h-10 text-accent mb-4" />
+      icon: <Target className="w-10 h-10 text-accent mb-4" />,
+      link: "/google-meta-ads"
+      
     },
     {
       title: "IT Support",
