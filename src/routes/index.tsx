@@ -129,43 +129,36 @@ function LandingPage() {
       icon: <ShieldCheck className="w-10 h-10 text-accent mb-4" />,
      link: "/cctv-solutions"
     },
-    {
+        {
       title: "Computer Sales & Services",
-      description: "Reliable computer hardware sales, custom builds, and expert repair services.",
-      icon: <Cpu className="w-10 h-10 text-accent mb-4" />,
-      link: "/computer-sales-services.tsx
+      description: "Complete branded computer setups, custom PC builds, genuine parts, and certified refurbished laptops.",
+      icon: <Laptop className="w-10 h-10 text-accent mb-4" />,
+      link: "/computer-sales-services"
     }
   ]
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-corporate-dark text-slate-50 font-sans">
+      
       {/* Header Navigation */}
       <header className="sticky top-0 z-50 bg-corporate/90 backdrop-blur-md border-b border-corporate-light">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             {/* Logo */}
-                      <Link to="/" className="flex items-center gap-2 group">
-            <img 
-              src="/IMG_5569.png" 
-              alt="SmythWorld Logo" 
-              className="h-12 w-auto object-contain transition-transform group-hover:scale-105" 
-            />
-          </Link>
-
+            <Link to="/" className="flex items-center gap-2 group">
+              <img 
+                src="/IMG_5569.png" 
+                alt="SmythWorld Logo" 
+                className="h-12 w-auto object-contain transition-transform group-hover:scale-105" 
+              />
+            </Link>
 
             {/* Desktop Navigation */}
-            <nav className="hidden md:flex items-center gap-8">
-              <button onClick={() => scrollToSection('home')} className="text-slate-300 hover:text-white transition-colors">Home</button>
-              <button onClick={() => scrollToSection('services')} className="text-slate-300 hover:text-white transition-colors">Services</button>
-              <button onClick={() => scrollToSection('about')} className="text-slate-300 hover:text-white transition-colors">About</button>
-              <button onClick={() => scrollToSection('contact')} className="text-slate-300 hover:text-white transition-colors">Contact</button>
-              <button 
-                onClick={() => scrollToSection('contact')}
-                className="bg-accent hover:bg-accent-hover text-white px-6 py-2.5 rounded-full font-medium transition-all transform hover:scale-105 shadow-lg shadow-accent/20 cursor-pointer"
-              >
-                Get Free Consultation
-              </button>
+            <nav className="hidden md:flex space-x-8 text-sm font-medium">
+              <Link to="/" className="text-accent">Home</Link>
+              <Link to="/about" className="text-slate-300 hover:text-accent transition-colors">About Us</Link>
             </nav>
+
 
             {/* Mobile Menu Button */}
             <div className="md:hidden">
