@@ -144,12 +144,14 @@ function LandingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             {/* Logo */}
-            <div className="flex items-center gap-2 cursor-pointer" onClick={() => scrollToSection('home')}>
-              <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center">
-                <Monitor className="w-6 h-6 text-corporate-dark" />
-              </div>
-              <span className="text-xl font-bold tracking-tight">SmythWorld IT Solutions</span>
-            </div>
+                      <Link to="/" className="flex items-center gap-2 group">
+            <img 
+              src="/IMG_5569.png" 
+              alt="SmythWorld Logo" 
+              className="h-12 w-auto object-contain transition-transform group-hover:scale-105" 
+            />
+          </Link>
+
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center gap-8">
