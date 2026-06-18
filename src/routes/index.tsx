@@ -16,7 +16,8 @@ import {
   X,
   ChevronRight,
   Monitor,
-  MessageCircle
+  MessageCircle,
+  laptop
 } from 'lucide-react'
 import { useState } from 'react'
 
